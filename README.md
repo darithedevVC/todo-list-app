@@ -1,2 +1,2 @@
 # todo-list-app
-Todo list application
+Todo List Application
