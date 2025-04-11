@@ -23,6 +23,7 @@ public class HelloServlet extends HttpServlet {
             int id = Integer.parseInt(request.getParameter("id"));
             ToDoList.delete(id);
         } else if ("exit".equals(action)) {
+            ToDoList.deleteAllTasks();
             request.setAttribute("exitMessage", "Exiting!");
             request.getRequestDispatcher("exit.jsp").forward(request, response);
         }

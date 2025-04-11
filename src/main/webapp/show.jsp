@@ -43,7 +43,7 @@
                     System.out.println("No tasks in ToDo List. Add tasks.");
             }%>
         <button><a href="add.jsp">Add</a></button>
-        <button><a href="delete.jsp">Delete </a></button>
+        <button><a href="delete.jsp">Delete</a></button>
         <button><a href="index.jsp">Menu</a></button>
     </ul>
 </body>
